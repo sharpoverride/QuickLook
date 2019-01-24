@@ -21,7 +21,6 @@
     <DefineConstants>PackageDir=$(SolutionDir)Build\Package\</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="C_QuickLookComponents.wxs" />
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>

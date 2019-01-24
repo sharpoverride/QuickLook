@@ -51,7 +51,7 @@ namespace QuickLook
 
         public PipeServerManager()
         {
-            _server = new NamedPipeServerStream(PipeName, PipeDirection.In);
+            _server = new NamedPipeServerStream(PipeName, PipeDirection.In, 2);
 
             new Task(() =>
             {
